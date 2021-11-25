@@ -81,10 +81,14 @@
 	
 	.skill-icon {
 		
-		i {
+		i, span {
 			font-size: calc(#{$icon-dim} / 2);
+			color: rgb(138, 160, 112);
 		}
+		
 		width: $icon-dim;
 		height: $icon-dim;
+		border-radius: 5px;
+		cursor: grab;
 		// display: block;
 	}
