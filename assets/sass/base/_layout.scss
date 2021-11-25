@@ -1,0 +1,172 @@
+// body {
+//   // background-color: $body-background;
+//   // color: $ui-main-clr;
+//   // font-family: $text-font;
+//   font-weight: 300;
+//   font-size: 14px;
+//   text-align: center;
+//   overflow-x: hidden;
+//   // text-justify: center;
+//   h1{ // giant title
+//     // font-family: $title-font;
+//     font-size: 42px;
+//     // margin-bottom: 20px;
+//   }
+//   h2 { // big buttons text
+//     font-weight: 600;
+//     // margin-bottom: 20px;
+//     font-size: 24px;
+//   }
+
+//   h3 { // subtitles
+//     font-weight: 300;
+//     // margin-bottom: 20px;
+//     font-size: 24px;
+//   }
+
+//   h4 { // index titles
+//     font-weight: 600;
+//     // margin-bottom: 20px;
+//     text-align: left;
+//     font-size: 18px;
+//   }
+
+//   h5 { // form labels
+//     font-weight: 600;
+//     // margin-bottom: 20px;
+//   }
+
+//   h6 { //footer fine print
+//     font-weight: 300;
+//     // margin-bottom: 20px;
+//     // color: $muted-text-clr;
+//   }
+
+
+
+// }
+
+// PAGE STYLING MODES
+.light-mode {
+  // background-color: $ui-main-clr;
+  // color: $body-background;
+  width: 100%;
+}
+
+.overlay-container {
+  position: relative;
+}
+
+.overlay-object {
+  position: absolute;
+}
+
+.overlay-object-fixed {
+  position: fixed;
+}
+
+.on-top {
+  z-index: 10;
+}
+.on-top-20 {
+  z-index: 20;
+}
+.on-top-15 {
+  z-index: 15;
+}
+
+.in-top-right-corner {
+  top: 10px;
+  right: 10px;
+}
+.in-top-left-corner {
+  top: 10px;
+  left: 10px;
+}
+
+.in-top-right-edge {
+  top: 0;
+  right: 0;
+}
+.in-top-left-edge {
+  top: 0;
+  left: 0;
+}
+
+.fa {
+  font-size: 14px;
+  
+  &:first-child {
+    padding-right: 10px;
+  }
+  &:last-child {
+    padding-left: 10px;
+    
+  }
+}
+
+
+
+// MOVING DIV ON PAGE
+
+.trans-350 {
+  transform: translate(0, -350px);
+  
+}
+
+
+// POINTERS
+.pointer {
+  cursor: pointer;
+}
+
+// GRID DIVS
+.div-grid-50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+// OVERFLOW SETTING
+
+.of-hide {
+  overflow: hidden;
+}
+
+.of-init {
+  overflow: initial;
+}
+
+.of-vis-v {
+  overflow-y: visible;
+}
+.of-vis-y {
+  overflow-x: visible;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.of-auto {
+  overflow-x: hidden;
+  overflow-y:hidden;
+  // -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  // scrollbar-width: none;  /* Firefox */
+
+  // &::-webkit-scrollbar {
+  //   display: none;
+  //   width: 0;
+  //   // height: 0;
+  //   background: transparent;
+  // }
+}
+
+
+
+
+
+.modal-scroll {
+  overflow:auto;
+  max-height: calc(100vh - 100px);;
+}
